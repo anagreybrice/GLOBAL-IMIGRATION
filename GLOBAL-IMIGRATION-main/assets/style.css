@@ -98,13 +98,13 @@ p, ul {
 /* Sección Quiénes Somos */
 #azul {
     background: url('./img/fondoazul1.svg') no-repeat center center/cover;
-    padding: 196px 0;
+    padding: 245px 0;
     
 }
 #footer{
     background: url('./img/fondoazul2.svg') no-repeat center/cover;
     width: 100%;
-    height: 800px;
+    height: 862px;
     display: flex;
 }
 h2 {
@@ -139,7 +139,7 @@ h4 {
 .logob{
     width: 500px;
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 
 }
 .ico{
@@ -150,7 +150,7 @@ h4 {
 }
 #contac{
     margin-top: 300px;
-    margin-left: 50px;
+    margin-left: 155px;
 }
 form {
     text-align: left;
@@ -342,7 +342,7 @@ form {
 
 /* Información a la derecha de la tarjeta */
 .team-info {
-    max-width: 500px; /* Ajusta el ancho del texto */
+    max-width: 750px; /* Ajusta el ancho del texto */
 }
 
 
