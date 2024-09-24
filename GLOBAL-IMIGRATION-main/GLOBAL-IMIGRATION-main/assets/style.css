@@ -1,0 +1,595 @@
+@font-face {
+    font-family: "titulos";
+    src: url("./fonts/newtitle/MaximaNouva-Regular-BF66ecec96953e0.otf");
+}
+@font-face {
+    font-family: "parrafos";
+    src: url("../assets/fonts/newtitle/CormorantGaramond-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 250px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+/* Estilos de la barra de navegación */
+
+
+.navbar .logo img {
+    max-height: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    font-family: parrafos;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #14325e; /* Color azul oscuro */
+    transition: color 0.3s ease;
+    margin-right: 20px;
+}
+
+#home{
+    display: flex;
+    gap: 250px;
+    margin: 50px 20px 0px 20px;
+}
+
+#home img{
+    margin-right: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+    color: #14325e;
+    font-family: "titulos";
+   
+}
+
+
+/* Estilos generales */
+
+/* Descripciones */
+p, ul {
+    font-family: "titulos";
+    color: #ffffff;
+    text-align: justify;
+}
+
+/* Titulos */
+.container {
+    font-family: "parrafos";
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+/* Sección Quiénes Somos */
+#azul {
+    background: url('./img/fondoazul1.svg') no-repeat center center/cover;
+    padding: 245px 0;
+    
+}
+#footer{
+    background: url('./img/fondoazul2.svg') no-repeat center/cover;
+    width: 100%;
+    height: 862px;
+    display: flex;
+}
+h2 {
+    font-family: "parrafos";
+    color: #fff;
+    font-size: 3rem;
+}
+.h2azul{
+    font-family: "parrafos";
+    color:#14325e ;
+    font-size: 3rem;
+}
+#contac h2{
+    margin-left: 50px;
+    text-align: center;
+}
+h4 {
+   
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-family: "titulos";
+    color: #fff;
+
+}
+.info{
+    margin-top: 200px;
+    justify-content: space-between;
+    margin-left: 200px;
+   
+  
+}
+.logob{
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+}
+.ico{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#contac{
+    margin-top: 300px;
+    margin-left: 155px;
+}
+form {
+    text-align: left;
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+  label {
+    font-family: "titulos";
+    color: #fff;
+    margin-bottom: ;
+  }
+  
+  input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd2fd;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: #14325e;
+    padding: 10px 20px;
+    border: #14325e;
+    cursor: pointer;
+    margin-top:10px;
+    font-family: "titulos";
+    
+  }
+  
+  input:focus , textarea:focus, footer img:focus {
+    border: 1px solid #ffffff;
+      
+  }
+  
+  input:hover,textarea:hover{
+    box-shadow: 0 0 10px 2px #869dd7
+  }
+  
+/* Sección Quiénes Somos imagenes una al lado de la otra*/
+.valores {
+    text-align: left;
+    padding: 0px;
+    color: white;
+}
+
+.values-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.value-item {
+    flex-basis: 20%; /* O ajustar según sea necesario */
+    text-align: center;
+    
+}
+
+.value-item img {
+    max-width: 600px; /* Ajusta el tamaño de las imágenes */
+    margin-bottom: 10px;
+}
+
+.value-item p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 3px;
+    
+}
+
+
+/* Resto del código */
+.follow-us {
+    margin-bottom: 40px;
+}
+
+/* Titulos tamaño*/
+
+
+
+.social-links li a {
+    color: #14325e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Descripciones tamaño*/
+.quienes p {
+    max-width: 1500px;
+    margin: left;
+    font-size: 25px;
+}
+
+.valores, .equipo, .our-services {
+    margin-bottom: 40px;
+}
+
+.valores ul, .our-services ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.equipo .team-member {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.equipo .team-member strong {
+    color: #ffffff;
+}
+
+/* Estilos para adaptabilidad móvil */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links, .valores ul, .our-services ul {
+        flex-direction: column;
+    }
+}
+
+
+/* Cartas de los integrantes del equipo */ 
+.equipo {
+    text-align: left;
+    padding: 20px;
+    color: white;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    gap: 90px; /* Espacio entre la tarjeta y el texto */
+}
+
+.card1 {
+    width: 290px;
+    height: 404px;
+    background: linear-gradient(10deg, rgb(52, 142, 233) 0%, #14325e 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.top {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 290px;
+    height: 300px;
+}
+
+.top .title {
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-top: 90%;
+}
+
+.card1 .desc {
+    color: #fff;
+    opacity: 75%;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: 2%;
+}
+
+/* Información a la derecha de la tarjeta */
+.team-info {
+    max-width: 750px; /* Ajusta el ancho del texto */
+}
+
+
+
+.team-info p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Sección de Nuestros Servicios */ 
+.our-services {
+    text-align: center;
+    padding: 20px;
+    color: #14325e;
+}
+
+/* General card container styling */
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Individual card styling */
+.card2 {
+    background-color: #f5f5f5;
+    background: linear-gradient(10deg, #ffffff 0%, #ffffff 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.387);
+    padding: 10px 25px;
+    text-align: center;
+    width: 30%; /* Adjust the width for a rectangular shape */
+    height: 215px; /* Set a fixed height */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 45px; /* Esto añade un espacio entre las filas */
+}
+
+/* Contenedor de las tarjetas */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Añade espacio entre las tarjetas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    row-gap: 30px; /* Añade espacio entre las filas de tarjetas */
+}
+
+
+/* Image styling */
+.card2 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+/* Text styling */
+.card2 p {
+    font-family: "titulos";
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center; /* Revisar */
+    color: #14325e;
+}
+
+/* Hover effect for cards */
+.card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.787);
+}
+
+
+/* Boton siguenos */ 
+
+.button {
+    font-family: "titulos";
+    src: url("./fonts/newtitle/MaximaNouva-Regular-BF66ecec96953e0.otf");
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px #14325e;
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: #ffffff;
+    border-radius: 9999px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: #14325e;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #7e7e7e4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -180px; /* Ajusta la distancia de el fondo azul con el boton */
+  }
+  
+  .icon {
+    width: 1010px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    border-color: rgba(106, 106, 106, 0.6);
+  }
+  
+  .button:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(108, 108, 108, 0) 30%,
+      rgba(114, 114, 114, 0.8),
+      rgba(131, 131, 131, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+
+  /* Para ser responsive */ 
+  
+  /* Global Settings */
+html {
+    font-size: 16px;
+}
+
+
+
+
+
+/* Responsive for small devices */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+   
+    h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .service-box, .team-card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+}
+
+/* Responsive for tablets and medium devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+  
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-container {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button {
+        font-size: 22px;
+    }
+}
+
+/* Responsive for larger screens */
+@media (min-width: 1025px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-container {
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .button {
+        font-size: 25px;
+    }
+}
+
